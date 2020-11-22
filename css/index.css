@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Comfortaa", cursive;
+}
+
+.header {
+  height: 68px;
+  background: #617bda;
+}
+
+.header-title {
+  display: flex;
+  font-size: 24px;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding-top: 17px;
+}
+
+.container {
+  max-width: 1133px;
+  margin: 0 auto;
+}
+
+.content-title {
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+}
+
+h2 {
+  padding: 33px 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.flex-container-JS {
+  width: 565px;
+}
+
+.flex-container-Python {
+  width: 565px;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+
+
+
+/* Media points for IPad */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 563px;
+    margin: auto;
+  }
+
+  .flex-container-JS {
+    width: 100%;
+  }
+
+  .flex-container-Python {
+    width: 100%;
+  }
+
+  .flex-btn-buy {
+    margin: 25px auto;
+    display: flex;
+  }
+
+  img {
+    margin: 23px 0;
+    max-width: 100%;
+  }
+
+  .flex-border {
+    border: 1px solid rgba(194, 205, 235, 0.63);
+    margin-top: -37px;
+    margin-bottom: 33px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media points for IPhone 6/7/8 */
+
+@media(max-width:560px){
+  .container{
+      max-width: 330px;
+      margin: auto;
+  }
+
+  .content-title{
+    font-size: 17px;
+    padding: 0;
+  }
+  
+  .flex-container-JS {
+    width: 100%;
+  }
+
+  .flex-container-Python {
+    width: 100%;
+  }
+
+  .flex-title-JS {
+    padding: 25px 0;
+    font-size: 15px;
+  }
+  
+  .flex-subtitle-JS {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0px 20px;
+  }
+  
+  .flex-btn-write {
+    padding: 10px;
+    margin: 53px 0 107px;
+    font-size: 12px;
+  }
+  
+  ul {
+    font-size: 15px;
+  }
+  
+  li {
+    text-align: left;
+  }
+  
+  .flex-btn-buy {
+    font-size: 12px;
+  }
+}
